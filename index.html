@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>likeNote — Ajao</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 likeNote</h1>
+    <p class="sub">โน้ตสั้นๆ พร้อมปุ่ม Like — ตัวอย่าง MVP</p>
+
+    <form id="noteForm">
+      <input id="noteInput" type="text" placeholder="พิมพ์โน้ตของคุณ..." required />
+      <button type="submit">เพิ่มโน้ต</button>
+    </form>
+
+    <ul id="notes"></ul>
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Noto Sans Thai', 'Noto Sans', Arial, sans-serif;
+  background: #0b1220; color: #e9f0ff; margin: 0; padding: 24px; }
+.container { max-width: 680px; margin: 0 auto; background: #101a2e; border: 1px solid #1f2a44;
+  border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+h1 { margin: 0 0 8px; font-weight: 800; letter-spacing: .3px; }
+.sub { margin-top: 0; opacity: .7; }
+form { display: flex; gap: 8px; margin: 16px 0 20px; }
+input { flex: 1; padding: 12px 14px; border-radius: 12px; border: 1px solid #243150; background:#0b1220; color:#e9f0ff; }
+button { padding: 12px 16px; border-radius: 12px; border: 0; background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: #ffffff; font-weight: 700; cursor: pointer; }
+ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.note { display: flex; justify-content: space-between; align-items: center; padding: 12px 14px;
+  background:#0f1a2c; border:1px solid #1e2a46; border-radius: 12px; }
+.actions { display: flex; gap: 8px; }
+.like, .del { background: #16223a; color: #cfe3ff; border: 1px solid #263657; padding: 6px 10px; border-radius: 10px; }
+.like { background: #152a1a; border-color:#224b2a; color:#caffdf; }
+.count { opacity: .8; margin-left: 6px; }
